@@ -31,6 +31,6 @@
   --color-section-heading: #ff0070;
 }
 
-.theme-dark .rec_symbol {
+.theme-dark .rec__symbol {
   display: flex;
 }
