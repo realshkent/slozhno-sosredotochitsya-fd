@@ -149,17 +149,11 @@
   padding-block-end: 20px;
 }
 
-.article__items_list {
-  gap: var(--gap-l);
-  padding-block-start: calc(var(--gap-l) + 1px);
-}
-
 .article__title {
   line-height: inherit;
   font-size: var(--font-size-common);
-  font-weight: bold;
   color: var(--color-article-title);
-  background-color: var(--color-article-title-bg);
+  margin-block-end: calc(var(--gap-l) + 1px);
 }
 
 .article__item_title {
@@ -193,7 +187,6 @@
 }
 
 .article__link:focus-visible {
-  padding: 5px 3px 7px 3px;
   outline: 1px solid var(--color-article-link-focus-visible);
 }
 
