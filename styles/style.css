@@ -153,11 +153,14 @@
   line-height: inherit;
   font-size: var(--font-size-common);
   color: var(--color-article-title);
-  margin-block-end: calc(var(--gap-l) + 1px);
 }
 
 .article__item_title {
   font-weight: normal;
+}
+
+.article:first-of-type > .article__item_title {
+  margin-block-start: calc(var(--gap-l) + 1px);
 }
 
 .article__text {
